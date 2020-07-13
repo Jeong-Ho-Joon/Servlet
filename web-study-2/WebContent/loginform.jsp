@@ -11,7 +11,7 @@ function check() {
 		alert("이름을 입력해주세요");
 		document.frm.name.focus();
 		return false;
-	} else if(document.frm.rn.value == "") {
+	} else if(document.frm.rn.value == "" || document.frm.rn2.value == "") {
 		alert("주민등록번호를 입력해주세요");
 		document.frm.rn.focus();
 		return false;
